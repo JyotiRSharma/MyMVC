@@ -7,9 +7,15 @@
 <title>Insert title here</title>
 </head>
 <body>
-	<h1 align="center">Mom's Cafe</h1>
-	<hr>
-
-	My name is: ${myNameValue}
+	<form action="processRequest">
+		<h1 align="center">Mom's Cafe</h1>
+		<hr>
+		<div align="center">
+			<label for="item_name">Item Name:</label> 
+			<input type="text"
+				name="foodType" placeholder="Food type" id="item_name" /> <br /> <input
+				type="submit" value="Place request" />
+		</div>
+	</form>
 </body>
 </html>
